@@ -1,34 +1,55 @@
 {
   "expo": {
-    "name": "mg-app",
-    "slug": "mg-app",
+    "name": "MarksPro",
+    "slug": "markspro",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "orientation": "default",
+    "icon": "./assets/AppIcons/appstore.png",
+    "scheme": "markspro",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/AppIcons/appstore.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4791FF"
+    },
+    "notification": {
+      "icon": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/29.png",
+      "color": "#ffffff",
+      "iosDisplayInForeground": true
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.markspro",
+      "icon": "./assets//AppIcons/Assets.xcassets/AppIcon.appiconset/180.png",
+      "appIcon": {
+        "60x60": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png",
+        "76x76": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/76.png",
+        "120x120": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/120.png",
+        "152x152": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/152.png",
+        "167x167": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/167.png",
+        "180x180": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/180.png",
+        "1024x1024": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/1024.png"
+      }
     },
     "android": {
+      "package": "com.yourcompany.markspro",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/AppIcons/playstore.png",
         "backgroundColor": "#ffffff"
+      },
+      "icon": "./assets/AppIcons/android/mipmap-xxxhdpi/ic_launcher.png",
+      "appIcon": {
+        "mdpi": "./assets/AppIcons/android/mipmap-mdpi/ic_launcher.png",
+        "hdpi": "./assets/AppIcons/android/mipmap-hdpi/ic_launcher.png",
+        "xhdpi": "./assets/AppIcons/android/mipmap-xhdpi/ic_launcher.png",
+        "xxhdpi": "./assets/AppIcons/android/mipmap-xxhdpi/ic_launcher.png",
+        "xxxhdpi": "./assets/AppIcons/android/mipmap-xxxhdpi/ic_launcher.png"
       }
     },
     "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/AppIcons/Assets.xcassets/AppIcon.appiconset/48.png"
     },
-    "plugins": [
-      "expo-router"
-    ],
+    "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true
     }
