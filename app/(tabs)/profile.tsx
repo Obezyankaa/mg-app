@@ -17,19 +17,24 @@ const Profile = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Профиль пользователя</Text>
-
-      {/* Если данные профиля загружены, отобразим их */}
       {userProfile ? (
-        <View>
-          <Text>Имя пользователя: {userProfile.profile.first_name}</Text>
-          <Text>Email: {userProfile.email}</Text>
-          {/* Можешь добавить любые другие данные профиля, которые есть */}
+        <View style={styles.profileContainer}>
+          <View style={styles.nameContainer}>
+            <Text style={styles.avatarPlaceholder}>B</Text>
+            <Text style={styles.name}>
+              {userProfile.profile.first_name} {userProfile.profile.last_name}{" "}
+              {userProfile.profile.middle_name}
+            </Text>
+          </View>
+          <Text style={styles.username}>Логин: {userProfile.username}</Text>
+          <Text style={styles.accessLevel}>
+            Уровень доступа: {userProfile.is_staff ? "Админ" : "Пользователь"}
+          </Text>
+          {/* Можно добавить любые другие данные профиля */}
         </View>
       ) : (
-        <Text>Загрузка данных профиля...</Text>
+        <Text style={styles.loadingText}>Загрузка данных профиля...</Text>
       )}
-
       <Button title="Выйти" onPress={handleExit} />
     </View>
   );
@@ -39,14 +44,30 @@ export default Profile;
 
 const styles = StyleSheet.create({
   container: {
-    padding: 20,
-    backgroundColor: "#fff",
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+    // основной контейнер для всей страницы
   },
-  title: {
-    fontSize: 24,
-    marginBottom: 20,
+  profileContainer: {
+    // контейнер для блока с данными профиля
+  },
+  nameContainer: {
+    // контейнер для имени и аватара
+  },
+  avatarPlaceholder: {
+    // стиль для отображения аватара (если его нет)
+  },
+  name: {
+    // стиль для отображения имени пользователя
+  },
+  username: {
+    // стиль для логина пользователя
+  },
+  accessLevel: {
+    // стиль для уровня доступа
+  },
+  loadingText: {
+    // стиль для текста загрузки
+  },
+  logoutButton: {
+    // стиль для кнопки "Выйти"
   },
 });

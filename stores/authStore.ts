@@ -49,7 +49,6 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   checkAuth: async () => {
     const accessToken = await AsyncStorage.getItem("accessToken");
     const savedUserProfile = await AsyncStorage.getItem("userProfile");
-    console.log(savedUserProfile, "savedUserProfile");
 
     if (accessToken) {
       set({
