@@ -1,17 +1,18 @@
+import { ThemedText } from "@/components/ThemedText";
 import { Link } from "expo-router";
 import { View, Text, StyleSheet } from "react-native";
 
 export default function HomeScreen() {
   return (
     <View>
-      <Text>Home</Text>
+      <ThemedText type="title">Explore</ThemedText>
       <Link
         href={{
           pathname: "/details/[id]",
           params: { id: "bacon" },
         }}
       >
-        View user details
+        <ThemedText type="default"> View user details</ThemedText>
       </Link>
     </View>
   );

@@ -1,10 +1,19 @@
 import Ionicons from "@expo/vector-icons/Ionicons";
 import { Tabs } from "expo-router";
+import { Colors } from "@/constants/Colors";
+import { useColorScheme } from "react-native";
 
 export default function TabLayout() {
 
+    const colorScheme = useColorScheme();
+
+
   return (
-    <Tabs>
+    <Tabs
+      screenOptions={{
+        tabBarActiveTintColor: Colors[colorScheme ?? "light"].tint,
+      }}
+    >
       <Tabs.Screen
         name="profile"
         options={{
