@@ -2,19 +2,20 @@ import {
   DarkTheme,
   DefaultTheme,
   ThemeProvider,
+  useTheme,
 } from "@react-navigation/native";
 import { Stack } from "expo-router";
 import LoginScreen from "./(auth)/LoginScreen";
 import { useAuthStore } from "@/stores/authStore";
 import { useEffect, useState } from "react";
-import { View, ActivityIndicator, Button, useColorScheme } from "react-native";
-
+import { View, ActivityIndicator, useColorScheme } from "react-native";
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const checkAuth = useAuthStore((state) => state.checkAuth);
   const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
   const [loading, setLoading] = useState(true); // состояние загрузки
+
   useEffect(() => {
     const initAuth = async () => {
       await checkAuth();
@@ -31,16 +32,16 @@ export default function RootLayout() {
     );
   }
 
-  if (!isAuthenticated) {
-    return <LoginScreen />;
-  }
-
   return (
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
+      {!isAuthenticated ? (
+        <LoginScreen />
+      ) : (
+        <Stack>
+          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen name="+not-found" />
+        </Stack>
+      )}
     </ThemeProvider>
   );
 }
