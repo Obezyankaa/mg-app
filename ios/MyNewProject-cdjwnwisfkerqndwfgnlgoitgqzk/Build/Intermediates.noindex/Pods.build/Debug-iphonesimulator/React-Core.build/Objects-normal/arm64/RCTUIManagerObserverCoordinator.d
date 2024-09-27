@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/cat/MyNewProject/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.mm \
+  /Users/cat/MyNewProject/ios/Pods/Target\ Support\ Files/React-Core/React-Core-prefix.pch \
+  /Users/cat/MyNewProject/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTViewManager.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModule.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTDefines.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTPackagerConnection.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTJSThread.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCTDeprecation/RCTDeprecation.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBundleManager.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTConvert.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTAnimationType.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBorderCurve.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBorderStyle.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTCursor.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTLog.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTAssert.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTUtils.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTPointerEvents.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTTextDecorationLineType.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/Yoga.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGConfig.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGEnums.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGMacros.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGNode.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGNodeLayout.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGNodeStyle.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGValue.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/Yoga/yoga/YGPixelGrid.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTEventDispatcherProtocol.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBridge.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBridgeDelegate.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBridgeModuleDecorator.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTFrameUpdate.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTInvalidating.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBridgeConstants.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTConstants.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTBridgeProxy.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/UIView+React.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTComponent.h \
+  /Users/cat/MyNewProject/node_modules/react-native/React/Modules/RCTUIManager.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/React-Core/React/RCTRootView.h

@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/cat/MyNewProject/node_modules/react-native/Libraries/Text/TextInput/Singleline/RCTSinglelineTextInputView.mm \
+  /Users/cat/MyNewProject/ios/Pods/Target\ Support\ Files/React-RCTText/React-RCTText-prefix.pch \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTSinglelineTextInputView.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBaseTextInputView.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTView.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBorderCurve.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBorderStyle.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTComponent.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTCursor.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTPointerEvents.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputDelegate.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBackedTextInputViewProtocol.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTJSThread.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCTDeprecation/RCTDeprecation.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBundleManager.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModuleDecorator.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTBridgeConstants.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTConstants.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/React-Core/React/RCTUITextField.h

@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/cat/MyNewProject/ios/Pods/RCT-Folly/folly/FileUtil.cpp \
+  /Users/cat/MyNewProject/ios/Pods/Target\ Support\ Files/RCT-Folly/RCT-Folly-prefix.pch \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/FileUtil.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/Portability.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/CPortability.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Config.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/hash/SpookyHashV2.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/CString.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/Exception.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/CppAttributes.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/Likely.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/Builtin.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/Traits.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/Utility.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/SafeAssert.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/Preprocessor.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/CArray.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/TypeInfo.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Constexpr.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/fmt/fmt/format.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Public/fmt/fmt/core.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/CpuId.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/detail/RangeCommon.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/detail/RangeSse42.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/Byte.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/ScopeGuard.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/lang/UncaughtExceptions.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/net/NetworkSocket.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/net/detail/SocketFileDescriptorMap.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Windows.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Fcntl.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/SysUio.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/IOVec.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/SysTypes.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Unistd.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/detail/FileUtilDetail.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/detail/FileUtilVectorDetail.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/net/NetOps.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Time.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Sockets.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/Stdlib.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/SysFile.h \
+  /Users/cat/MyNewProject/ios/Pods/Headers/Private/RCT-Folly/folly/portability/SysStat.h
