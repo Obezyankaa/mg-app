@@ -6,6 +6,8 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import SettingsScreen from "./src/Screen/SettingsScreen";
 import Profile from "./src/Screen/ProfileScreen";
 import HomeNavigation from "./src/navigation/HomeNavigation";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import Ionicons from "react-native-vector-icons/Ionicons";
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === "dark";
@@ -23,14 +25,44 @@ function App(): React.JSX.Element {
         backgroundColor={backgroundStyle.backgroundColor}
       />
       <NavigationContainer>
-        <Tab.Navigator>
-          <Tab.Screen name="Profile" component={Profile} />
+        <Tab.Navigator initialRouteName="MainHome">
           <Tab.Screen
-            name="Home"
-            component={HomeNavigation}
-            options={{ headerShown: false }}
+            name="Profile"
+            component={Profile}
+            options={{
+              tabBarLabel: "Профиль",
+              headerTitle: "Личные данные",
+              tabBarIcon: ({ color, size }) => (
+                <MaterialCommunityIcons
+                  name="account"
+                  color={color}
+                  size={size}
+                />
+              ),
+            }}
           />
-          <Tab.Screen name="Settings" component={SettingsScreen} />
+          <Tab.Screen
+            name="MainHome"
+            component={HomeNavigation}
+            options={{
+              tabBarLabel: "Главная",
+              headerShown: false,
+              tabBarIcon: ({ color, size }) => (
+                <MaterialCommunityIcons name="home" color={color} size={size} />
+              ),
+            }}
+          />
+          <Tab.Screen
+            name="Settings"
+            component={SettingsScreen}
+            options={{
+              headerTitle: 'Настройки',
+              tabBarLabel: "Настройки",
+              tabBarIcon: ({ color, size }) => (
+                <Ionicons name="settings" color={color} size={size} />
+              ),
+            }}
+          />
         </Tab.Navigator>
       </NavigationContainer>
     </>
