@@ -24,16 +24,30 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	
+	<!-- Добавьте исключение для домена -->
 	<key>NSAppTransportSecurity</key>
 	<dict>
-	  <!-- Do not change NSAllowsArbitraryLoads to true, or you will risk app rejection! -->
-		<key>NSAllowsArbitraryLoads</key>
-		<false/>
-		<key>NSAllowsLocalNetworking</key>
-		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>188.225.35.184</key> <!-- Ваш домен или IP -->
+			<dict>
+				<key>NSIncludesSubdomains</key>
+				<true/>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+				<key>NSExceptionRequiresForwardSecrecy</key>
+				<false/>
+				<key>NSRequiresCertificateTransparency</key>
+				<false/>
+			</dict>
+		</dict>
 	</dict>
+
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
+
+  <!-- Шрифты и прочие настройки -->
   <key>UIAppFonts</key>
   <array>
     <string>AntDesign.ttf</string>
@@ -56,6 +70,7 @@
     <string>Zocial.ttf</string>
     <string>Fontisto.ttf</string>
   </array>
+
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
